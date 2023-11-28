@@ -18,5 +18,14 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        $estudiante = new \App\Models\Estudiante;
+        $estudiante->nombre = 'Juanito';
+        $estudiante->apellidos = 'Martínez';
+        $estudiante->direccion = 'Dirección de Juan';
+        $estudiante->votos = 130;
+        $estudiante->confirmado = true;
+        $estudiante->ciclo = 'DAW';
+        $estudiante->save();
     }
 }
