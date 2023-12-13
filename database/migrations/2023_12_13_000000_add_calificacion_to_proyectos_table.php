@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::table('proyectos', function (Blueprint $table) {
             $table->unsignedTinyInteger('calificacion')->nullable();
+            $table->unsignedTinyInteger('calificacion')->nullable();
         });
     }
 
