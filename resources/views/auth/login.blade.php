@@ -3,5 +3,5 @@
 @section('content')
 
     Login usuario
-
+    Login usuario
 @stop
