@@ -21,5 +21,7 @@ class ParticipanteProyecto extends Model
         'proyecto_id',
     ];
 
+    //protected
+
     public $incrementing = false;
 }
